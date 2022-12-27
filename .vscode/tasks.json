@@ -1,0 +1,25 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "venv-shell",
+      "type": "shell",
+      "command": "pipenv shell",
+      "detail": "venv環境のターミナルを起動する"
+    },
+    {
+      "label": "jupyter-lab",
+      "type": "shell",
+      "command": "pipenv run jupyterlab",
+      "detail": "JupyterLabを起動する"
+    },
+    {
+      "label": "jupyter-notebook",
+      "type": "shell",
+      "command": "pipenv run notebook",
+      "detail": "Jupyter Notebookを起動する"
+    },
+  ]
+}
