@@ -9,6 +9,7 @@ notebook = "jupyter notebook"
 
 [packages]
 jupyterlab = "==3.5.2"
+pandas = "==1.5.2"
 
 [dev-packages]
 autopep8 = "==1.7.0"
