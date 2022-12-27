@@ -1,6 +1,6 @@
 # このリポジトリについて
 
-これは pipenv + jupyter のテンプレートリポジトリです。
+[pandas](https://pypi.org/project/pandas/)のサンプルコードをまとめる。
 
 # 動作確認済み環境
 
